@@ -1,0 +1,24 @@
+# Secrets and local config (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.keystore
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Common build and dependency output (add stack-specific entries with the
+# first implementation)
+node_modules/
+dist/
+build/
+out/
+target/
+coverage/
+*.log
